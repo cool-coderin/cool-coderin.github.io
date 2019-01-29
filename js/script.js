@@ -17,10 +17,10 @@ function disp(){
 
         window.setTimeout(disp, 500);
         
-        document.querySelector("#header").onmouseover= ()=>{var hue_h1 = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
-            document.getElementById("header").style.color=hue_h1;
-            var hue_O = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
-            document.querySelectorAll("span").forEach(el=>{el.style.color=hue_O;});
-        };
+ 
+        var hue_h1 = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+        document.getElementById("header").style.color=hue_h1;
+        var hue_O = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+        document.querySelectorAll("span").forEach(el=>{el.style.color=hue_O;});
 
 }
