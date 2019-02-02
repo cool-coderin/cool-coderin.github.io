@@ -1,10 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+body {
+    background-image: url('../ai.jpg');
+}
+
 div{
     text-align: center;
+    align-items: center;
     color: orange;
-    font-size: 100px;
+    font-size: 75px;
     padding: 100px;
+    font-family: "Open Sans";
+}
+
+h1 {
+    background-color: ivory;
 }
 
 span {
     color: green;
 }
+
